@@ -1,0 +1,84 @@
+/* Background styling */
+.backgroundpart {
+   background-color: red;
+    background-size: cover;
+   
+   
+    min-height: 100vh;       /* Full screen height */
+    width: 100%;              /* Full screen width */
+    display: flex;            /* Center the content */
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  /* Card styling */
+  .contentcard {
+    background-color: #e6f9fc;
+    border-radius: 15px;
+    padding: 30px 20px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Heading */
+  .congratshead {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Profile image & text */
+  .profile-pic {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  .name {
+    margin: 0;
+    font-size: 18px;
+    color: #007b8f;
+  }
+  
+  .college {
+    font-size: 14px;
+    color: #555;
+    margin-top: 5px;
+  }
+  
+  /* Gift image */
+  .gift-img {
+    margin-top: 20px;
+    width: 80px;
+    height: auto;
+  }
+  
+  /* Responsive tweaks */
+  @media (max-width: 500px) {
+    .contentcard {
+      padding: 20px 15px;
+    }
+  
+    .congratshead {
+      font-size: 20px;
+    }
+  
+    .name {
+      font-size: 16px;
+    }
+  
+    .college {
+      font-size: 13px;
+    }
+  
+    .gift-img {
+      width: 60px;
+    }
+  }
+  
