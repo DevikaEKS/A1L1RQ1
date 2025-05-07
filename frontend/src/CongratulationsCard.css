@@ -60,7 +60,25 @@
     width: 80px;
     height: auto;
   }
-  
+
+  .datepart{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 10px;
+   
+  }
+  .datebox{
+    border: 1px solid rgb(123, 165, 243);
+    padding:4px 5px;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.25);
+  }
+  .fullpart{
+   background-color: rgb(163, 218, 243);
+
+  }
   /* Responsive tweaks */
   @media (max-width: 500px) {
     .contentcard {
